@@ -1,8 +1,30 @@
-body{
-    color: green;
-background-color: rgb(119, 10, 221);
+.main{
+    width: 100%;
+
 }
+.part1{
+
+}
+
 h1{
     text-align: center;
-    font-size: 2em;
+}
+.navbar{
+    background-color: aliceblue;
+display: flex;
+justify-content: space-between;
+padding: 2vh;
+margin: 2vh;
+
+}
+ul {
+    display: flex;
+    list-style-type:none ;
+
+}
+li{
+    margin: 2vh;
+    font-size: 3vh;
+    cursor: pointer;
+    color: red;
 }
