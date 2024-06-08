@@ -1,14 +1,13 @@
-{% load static %}
+{% extends 'layout.html' %}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<link rel="stylesheet" href="{% static 'style.css' %}">
-<body>
-    <h1>Chai aur Django</h1>
-</body>
-</html>
+
+{% block title %}
+Home page
+{%endblock%}
+
+
+
+
+{% block content %}
+<h1>CHai aur code | Home page </h1>
+{%endblock%}
