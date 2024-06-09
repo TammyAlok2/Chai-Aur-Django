@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'chai','tailwind','theme'
+    'chai','tailwind','theme',
 ]
 TAILWIND_APP_NAME = 'theme'
 INTERNAL_IPS =['127.0.0.1']
@@ -49,6 +49,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+ 
 ]
 
 ROOT_URLCONF = 'chaiaurdjango.urls'

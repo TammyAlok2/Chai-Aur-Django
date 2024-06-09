@@ -23,4 +23,7 @@ urlpatterns = [
     path('about/',views.about,name='about'),
     path('service/',views.service,name='service'),
     path('chai/',include('chai.urls')),
+    
 ]
+
+
